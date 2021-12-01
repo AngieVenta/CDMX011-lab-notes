@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "notes-to-express-yourself": {
+      "hosting": {
+        "lab-notes": [
+          "notes-to-express-yourself"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "notes-to-express-yourself"
+  }
+}
