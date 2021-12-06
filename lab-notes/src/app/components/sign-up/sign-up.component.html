@@ -5,20 +5,20 @@
             <img id='logoImgage' src="../../../assets/images/giphy (2).gif" alt='logoImgage'/>
         </aside>
         <main>
-            <form>
+            <form (ngSubmit)="SingUpUser()" #userForm="ngForm">
                 <h2>Welcome!</h2>
                 <label for="usernameInput">Username:</label>
                 <input type="text" class="usernameInput" id="usernameInput" 
-                placeholder="Your username" name="username" required> 
+                placeholder="Your username" name="username"  [(ngModel)]="dataUser.username" required> 
                 <label for="emailInput">E-mail:</label>
                 <input type="email" class="emailInput" id="emailInput" 
-                placeholder="mail@example.com" name="email" required> 
+                placeholder="mail@example.com" name="email" [(ngModel)]="dataUser.email" required> 
                 <label for="passwordInput">Password:</label>
                 <input type="password" class="passwordInput" id="passwordInput" 
-                placeholder="Your password" name="password" required> 
+                placeholder="Your password" name="password" [(ngModel)]="dataUser.password" required> 
                 <label for="repeatPasswordInput">Repeat Password:</label>
                 <input type="password" class="repeatPasswordInput" id="repeatPasswordInput" 
-                placeholder="Repeat password" name="repeatPassword" required> 
+                placeholder="Repeat password" name="repeatPassword" [(ngModel)]="dataUser.repeatPassword" required> 
                 <button type="submit" class="SignUpBtn">SignUp</button>          
             </form>        
         </main>

@@ -11,6 +11,7 @@ import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFireAuthModule } from "@angular/fire/compat/auth";
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 //import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 //import { provideAuth,getAuth } from '@angular/fire/auth';
 //import { provideDatabase,getDatabase } from '@angular/fire/database';
@@ -30,6 +31,7 @@ import { AppRoutingModule } from './app-routing.module';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFirestoreModule,
+    FormsModule
     // provideFirebaseApp(() => initializeApp(environment.firebase)),
     // provideAuth(() => getAuth()),
     // provideDatabase(() => getDatabase()),
