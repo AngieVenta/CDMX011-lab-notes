@@ -14,12 +14,12 @@ export class SignUpComponent implements OnInit {
     constructor( private AuthenticationService: AuthenticationService, private Router: Router) { }
 
   ngOnInit(): void {
+    this.AuthenticationService.UserSignedIn()
   }
   
   dataUser: User = new User();
 
-  SingUpUser(){
-    console.log(this.dataUser);
+  SingUpUser(){    
     const { username, email, password, repeatPassword }  = this.dataUser;
     if(username === '' || email === '' || password === '' || repeatPassword === ''){
       return alert('Please fill in all the required fields.')
@@ -29,8 +29,8 @@ export class SignUpComponent implements OnInit {
       this.AuthenticationService.SignUp(email, password).then((userCredential) => {
         console.log(userCredential)
         alert('Welcome to Express Yourself!!')
-        this.Router.navigate(['dashboard']);
-      })
+        this.Router.navigate(['Dashboard']);
+      }).catch(error => alert(error.message))
     }
   }
 

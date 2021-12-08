@@ -12,11 +12,11 @@ body {
   background-color: #212547;
   width: 100vw;
   height: 100vh;
-  margin-top: 5vmin;
+  margin: 5vmin 0 0 -1vmin;
 }
 
 aside {
-  width: 50%;
+  width: 48%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,17 +30,24 @@ aside {
 }
 
 aside h1 {
-  font-family: 'Sacramento', cursive;
+  font-size: 8vmin;
+  font-weight: normal;
+  font-style: normal;
   color: #FFFFFF;
+  font-family: 'Sacramento', cursive;
   -webkit-transform: rotate(-9.68deg);
           transform: rotate(-9.68deg);
-  font-size: 8vmin;
   margin: 0;
-  font-weight: normal;
 }
 
 main {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 form {
@@ -63,8 +70,8 @@ form {
 
 form h2 {
   font-size: 8.2vmin;
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
   color: #FFFFFF;
   font-family: 'Sacramento', cursive;
   margin: 0.5vmin;
@@ -74,32 +81,37 @@ form h2 {
 }
 
 form label {
-  color: #FFFFFF;
   font-size: 3vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
   margin-left: 2vmin;
 }
 
 form input {
+  font-size: 3vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
   background-color: transparent;
   border-bottom: 3px solid #FFFFFF;
-  font-size: 3vmin;
   border-top: none;
   border-left: none;
   border-right: none;
   width: 95%;
-  border-bottom: 3px solid #FFFFFF;
   padding-bottom: 1.5vmin;
   margin: 2vmin;
-  color: #FFFFFF;
 }
 
 form button {
+  font-size: 4vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(74, 50, 14, 0.76);
   background: #F9D76A;
   -webkit-box-shadow: 0px 8px 8px rgba(249, 215, 106, 0.26);
           box-shadow: 0px 8px 8px rgba(249, 215, 106, 0.26);
   border-radius: 50px;
-  color: rgba(74, 50, 14, 0.76);
-  font-size: 4vmin;
   padding: 1vmin;
   width: 20vw;
   -ms-flex-item-align: center;
@@ -110,16 +122,18 @@ form button {
 
 footer {
   text-align: center;
-  margin-top: 4vmin;
+  margin-top: 3vmin;
 }
 
 footer button {
+  font-size: 6vmin;
+  font-weight: normal;
+  font-style: normal;
   color: #FCFCFC;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   border: none;
   background-color: transparent;
   font-family: 'Montserrat', sans-serif;
-  font-size: 6vmin;
 }
 /*# sourceMappingURL=sign-up.component.css.map */
