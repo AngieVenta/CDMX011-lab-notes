@@ -17,17 +17,7 @@ export class AuthenticationService {
   
   LogIn(email:string, password:string){
     return this.afAuth.signInWithEmailAndPassword(email,password)
-  }
-
-  UserSignedIn(){
-    return this.afAuth.onAuthStateChanged((user) => {
-      if(!user){
-        this.router.navigate(['LogIn'])
-      } else{
-        this.router.navigate(['Dashboard'])
-      }
-    })
-  }
+  } 
   
   LogOut(){
     return this.afAuth.signOut()

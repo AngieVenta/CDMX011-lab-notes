@@ -14,7 +14,6 @@ export class SignUpComponent implements OnInit {
     constructor( private AuthenticationService: AuthenticationService, private Router: Router) { }
 
   ngOnInit(): void {
-    this.AuthenticationService.UserSignedIn()
   }
   
   dataUser: User = new User();
