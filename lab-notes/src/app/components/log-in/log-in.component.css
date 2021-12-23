@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap");
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #212547;
+  width: 100vw;
+  height: 100vh;
+  margin: 10vmin 0 0 -1vmin;
+}
+
+aside {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+aside h1 {
+  font-size: 8vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  font-family: 'Sacramento', cursive;
+  -webkit-transform: rotate(-9.68deg);
+          transform: rotate(-9.68deg);
+  margin: 0;
+}
+
+main {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 65vmin;
+  border: 10px solid #F9D76A;
+  border-radius: 100px;
+  padding: 2vmin;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form h2 {
+  font-size: 8vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  font-family: 'Sacramento', cursive;
+  margin: 2vmin;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+form label {
+  font-size: 4vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-left: 2vmin;
+}
+
+form input {
+  font-size: 3vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FFFFFF;
+  background-color: transparent;
+  border-bottom: 3px solid #FFFFFF;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 95%;
+  padding-bottom: 1.5vmin;
+  margin: 2vmin;
+}
+
+form button {
+  font-size: 5vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(74, 50, 14, 0.76);
+  background: #F9D76A;
+  -webkit-box-shadow: 0px 8px 8px rgba(249, 215, 106, 0.26);
+          box-shadow: 0px 8px 8px rgba(249, 215, 106, 0.26);
+  border-radius: 50px;
+  padding: 1vmin;
+  width: 20vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 4vmin;
+}
+
+footer {
+  text-align: center;
+  margin-top: 7vmin;
+}
+
+footer button {
+  font-size: 6vmin;
+  font-weight: normal;
+  font-style: normal;
+  color: #FCFCFC;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=log-in.component.css.map */
